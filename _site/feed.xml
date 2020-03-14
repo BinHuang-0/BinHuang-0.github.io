@@ -4,11 +4,33 @@
     <title>Bin Huang</title>
     <description>Personal website of Bin Huang to mess around with and experiment. Also personal blog consisting of mostly app development.
 </description>
-    <link>http://binhuang-0.github.io/</link>
-    <atom:link href="http://binhuang-0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Mar 2020 14:57:04 -0500</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2020 14:57:04 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Mar 2020 15:30:41 -0500</pubDate>
+    <lastBuildDate>Sat, 14 Mar 2020 15:30:41 -0500</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Pandemic</title>
+        <description>&lt;p&gt;The Covid-19 pandemic has been an interesting experience to live through. Everything’s been canceled, and all the toilet paper’s sold out for some reason. However, this voluntary quarantine has given me some more time to learn some new things.&lt;/p&gt;
+
+&lt;p&gt;I’ve been interested in game development for some time, but I’ve always been in the data analysis area of computer science. Well, today I’ve decided to stick my foot in the water and mess with the Unity engine. The game I decided to create? I call it “Infection,” based on the zombie virus. It’s in no way complete nor robust, but it was a fun afternoon.&lt;/p&gt;
+
+&lt;p&gt;I would also love to create a simulation of how quickly a virus could spread. Maybe that’ll be my next project.&lt;/p&gt;
+
+&lt;p&gt;You can find the project on my &lt;a href=&quot;https://github.com/BinHuang-0&quot;&gt;GitHub&lt;/a&gt; at &lt;a href=&quot;https://github.com/BinHuang-0/Infection_Game&quot;&gt;this link&lt;/a&gt;. Also, if you, for some reason, want to know my thoughts during this pandemic, here’s my &lt;a href=&quot;https://twitter.com/bhuang3&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Stay safe, and stay healthy.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Mar 2020 15:24:10 -0500</pubDate>
+        <link>http://localhost:4000/infection/2020/03/14/Pandemic.html</link>
+        <guid isPermaLink="true">http://localhost:4000/infection/2020/03/14/Pandemic.html</guid>
+        
+        
+        <category>Infection</category>
+        
+      </item>
     
       <item>
         <title>Hello World!</title>
@@ -20,8 +42,8 @@
 
 </description>
         <pubDate>Fri, 13 Mar 2020 14:46:30 -0500</pubDate>
-        <link>http://binhuang-0.github.io/first/post/2020/03/13/Hello-World!.html</link>
-        <guid isPermaLink="true">http://binhuang-0.github.io/first/post/2020/03/13/Hello-World!.html</guid>
+        <link>http://localhost:4000/first/post/2020/03/13/Hello-World!.html</link>
+        <guid isPermaLink="true">http://localhost:4000/first/post/2020/03/13/Hello-World!.html</guid>
         
         
         <category>first</category>
