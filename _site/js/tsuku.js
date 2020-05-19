@@ -1,7 +1,16 @@
 var deck = [];
 
-function addCard(name) {
-    deck.push(name);
+function addCard(name, img) {
+    var n = {
+        "name": name, "img": img
+    }
+    deck.push(n);
+
+    showDeck();
+}
+
+function removeCard(pos) {
+    deck.splice(pos, 1);
 
     showDeck();
 }
@@ -9,5 +18,6 @@ function addCard(name) {
 function showDeck() {
     document.getElementById("deckPlace").innerHTML = "Deck Size: " + deck.length + "<br>";
     for(var card in deck)
-    document.getElementById("deckPlace").innerHTML += deck[card] + "<br>";
+        document.getElementById("deckPlace").innerHTML += "<img src=" + deck[card].img + " width=100px onclick='removeCard(" + card + ")'>";
+ 
 }

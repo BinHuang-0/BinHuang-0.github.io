@@ -5,9 +5,11 @@ permalink: /Projects/tsuku.html
 ---
 
 <script src="../js/tsuku.js"></script>
+
+<!-- Fill Deck -->
 <ul>
 {% for item in site.data.oracleCards %}
-    <img src="{{item.img}}" width=150px onclick="addCard('{{item.name}}')">
+    <img src="{{item.img}}" width=100px onclick="addCard('{{item.name}}', '{{item.img}}')">
 {% endfor%}
 </ul>
 
@@ -19,4 +21,7 @@ permalink: /Projects/tsuku.html
     draw and replace
 -->
 <h2>Deck</h2>
-<span id="deckPlace"></span>
+<ul>
+    <span id="deckPlace"></span>
+</ul>
+<button>Start</button>
