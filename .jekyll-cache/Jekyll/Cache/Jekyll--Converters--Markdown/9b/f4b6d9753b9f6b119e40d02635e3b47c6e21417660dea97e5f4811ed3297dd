@@ -1,9 +1,17 @@
-I"‰<script src="../js/tsuku.js"></script>
+I"S<script src="../js/tsuku.js"></script>
 
 <!-- Fill Deck -->
 <ul>
 
+    <img src="../imgs/g0Magus.webp" width="100px" onclick="addCard('Lozenge Magus', '../imgs/g0Magus.webp')" />
+
+    <img src="../imgs/g0Eclair.webp" width="100px" onclick="addCard('Battle Sister, Eclair', '../imgs/g0Eclair.webp')" />
+
     <img src="../imgs/g0Ichibyoshi.webp" width="100px" onclick="addCard('Godhawk, Ichibyoshi', '../imgs/g0Ichibyoshi.webp')" />
+
+    <img src="../imgs/g0Kaguya.webp" width="100px" onclick="addCard('Supple Bamboo Princess, Kaguya', '../imgs/g0Kaguya.webp')" />
+
+    <img src="" width="100px" onclick="addCard('', '')" />
 
     <img src="../imgs/g1Tsuku.webp" width="100px" onclick="addCard('Goddess of the Crescent Moon, Tsukuyomi', '../imgs/g1Tsuku.webp')" />
 
@@ -26,4 +34,5 @@
 <ul>
     <span id="deckPlace"></span>
 </ul>
+<p><button>Start</button></p>
 :ET

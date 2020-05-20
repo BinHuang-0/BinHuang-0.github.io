@@ -1,12 +1,14 @@
 var deck = [];
 
 function addCard(name, img) {
-    var n = {
-        "name": name, "img": img
-    }
-    deck.push(n);
+    if(deck.length < 40) {
+        var n = {
+            "name": name, "img": img
+        }
+        deck.push(n);
 
-    showDeck();
+        showDeck();
+    }
 }
 
 function removeCard(pos) {

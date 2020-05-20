@@ -1,7 +1,37 @@
+ - name: Lozenge Magus
+   img: ../imgs/g0Magus.webp
+ - name: Battle Sister, Eclair
+   img: ../imgs/g0Eclair.webp
+ - name: Supple Bamboo Princess, Kaguya
+   img: ../imgs/g0Kaguya.webp
  - name: Godhawk, Ichibyoshi
    img: ../imgs/g0Ichibyoshi.webp
+ - name: Battle Sister, Cocoa
+   img: ../imgs/g1CoCoa.webp
+ - name: Circle Magus
+   img: ../imgs/g1Magus.webp
+ - name: Dark Cat
+   img: ../imgs/g1DarkCat.webp
+ - name: Luck Bird
+   img: ../imgs/g1LuckBird.webp
+ - name: Oracle Guardian, Gemini
+   img: ../imgs/g1Gemini.webp
+ - name: Battle Sister, Maple
+   img: ../imgs/g1Maple.webp
+ - name: One Who Gazes at the Truth
+   img: ../imgs/g1Truth.webp
+ - name: Petal Fairy
+   img: ../imgs/g1PetalFairy.webp
+ - name: Sword Dances Angel
+   img: ../imgs/g1SwordAngel.webp
+ - name: Weather Girl, Milk
+   img: ../imgs/g1Milk.webp
  - name: Goddess of the Crescent Moon, Tsukuyomi
    img: ../imgs/g1Tsuku.webp
+ - name: Oracle Guardian, Blue Eye
+   img: ../imgs/g1BlueEye.webp
+ - name: White Hare pf Inaba
+   img: ../imgs/g1Hare.webp
  - name: Goddess of the Half Moon, Tsukuyomi
    img: ../imgs/g2Tsuku.webp
  - name: Goddess of the Full Moon, Tsukuyomi
