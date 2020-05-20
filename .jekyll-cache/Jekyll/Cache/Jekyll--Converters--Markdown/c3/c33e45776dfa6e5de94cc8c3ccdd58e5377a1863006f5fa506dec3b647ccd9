@@ -1,4 +1,5 @@
-I"�
+I":<p>Still in Development</p>
+
 <script src="../js/tsuku.js"></script>
 
 <!-- Fill Deck -->
@@ -36,7 +37,7 @@
 
     <img src="../imgs/g1BlueEye.webp" width="100px" onclick="addCard('Oracle Guardian, Blue Eye', '../imgs/g1BlueEye.webp')" />
 
-    <img src="../imgs/g1BlueEye.webp" width="100px" onclick="addCard('White Hare pf Inaba', '../imgs/g1BlueEye.webp')" />
+    <img src="../imgs/g1Hare.webp" width="100px" onclick="addCard('White Hare pf Inaba', '../imgs/g1Hare.webp')" />
 
     <img src="../imgs/g2Tsuku.webp" width="100px" onclick="addCard('Goddess of the Half Moon, Tsukuyomi', '../imgs/g2Tsuku.webp')" />
 
@@ -45,7 +46,6 @@
     <img src="../imgs/g3Amaterasu.webp" width="100px" onclick="addCard('CEO Amaterasu', '../imgs/g3Amaterasu.webp')" />
 
 </ul>
-
 <!--
     draw starting hand
     draw
@@ -53,9 +53,11 @@
     search tsukuyomi
     draw and replace
 -->
-<h2>Deck</h2>
-<ul>
-    <span id="deckPlace"></span>
-</ul>
-<p><button>Start</button></p>
+<p>&lt;div class=”right-half” width=50%&gt;
+    &lt;h2&gt;Deck&lt;/h2&gt;
+    &lt;ul&gt;
+        <span id="deckPlace"></span>
+    &lt;/ul&gt;
+    <button>Start</button>
+&lt;/div&gt;</p>
 :ET

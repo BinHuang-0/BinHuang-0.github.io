@@ -1,7 +1,9 @@
-I"�
+I"z<p>Still in Development</p>
+
 <script src="../js/tsuku.js"></script>
 
 <!-- Fill Deck -->
+<p>&lt;div class=”left-half” width=50%&gt;</p>
 <ul>
 
     <img src="../imgs/g0Magus.webp" width="100px" onclick="addCard('Lozenge Magus', '../imgs/g0Magus.webp')" />
@@ -18,7 +20,7 @@
 
     <img src="../imgs/g1DarkCat.webp" width="100px" onclick="addCard('Dark Cat', '../imgs/g1DarkCat.webp')" />
 
-    <img src="../imgs/g1LuckBird" width="100px" onclick="addCard('Luck Bird', '../imgs/g1LuckBird')" />
+    <img src="../imgs/g1LuckBird.webp" width="100px" onclick="addCard('Luck Bird', '../imgs/g1LuckBird.webp')" />
 
     <img src="../imgs/g1Gemini.webp" width="100px" onclick="addCard('Oracle Guardian, Gemini', '../imgs/g1Gemini.webp')" />
 
@@ -36,7 +38,7 @@
 
     <img src="../imgs/g1BlueEye.webp" width="100px" onclick="addCard('Oracle Guardian, Blue Eye', '../imgs/g1BlueEye.webp')" />
 
-    <img src="../imgs/g1BlueEye.webp" width="100px" onclick="addCard('White Hare pf Inaba', '../imgs/g1BlueEye.webp')" />
+    <img src="../imgs/g1Hare.webp" width="100px" onclick="addCard('White Hare pf Inaba', '../imgs/g1Hare.webp')" />
 
     <img src="../imgs/g2Tsuku.webp" width="100px" onclick="addCard('Goddess of the Half Moon, Tsukuyomi', '../imgs/g2Tsuku.webp')" />
 
@@ -45,7 +47,7 @@
     <img src="../imgs/g3Amaterasu.webp" width="100px" onclick="addCard('CEO Amaterasu', '../imgs/g3Amaterasu.webp')" />
 
 </ul>
-
+<p>&lt;/div&gt;
 <!--
     draw starting hand
     draw
@@ -53,9 +55,11 @@
     search tsukuyomi
     draw and replace
 -->
-<h2>Deck</h2>
-<ul>
-    <span id="deckPlace"></span>
-</ul>
-<p><button>Start</button></p>
+&lt;div class=”right-half” width=50%&gt;
+    &lt;h2&gt;Deck&lt;/h2&gt;
+    &lt;ul&gt;
+        <span id="deckPlace"></span>
+    &lt;/ul&gt;
+    <button>Start</button>
+&lt;/div&gt;</p>
 :ET

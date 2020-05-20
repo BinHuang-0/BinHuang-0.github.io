@@ -1,0 +1,21 @@
+.post-content h2 {
+    float: left;
+}
+
+.post-content ul {
+    clear: both;
+}
+
+.left-half {
+    width: 50%;
+    float: left;
+}
+
+.right-half {
+    width: 50%;
+    float: left;
+}
+
+#cardCount {
+    float: right;
+}

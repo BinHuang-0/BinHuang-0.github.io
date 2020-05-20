@@ -1,0 +1,62 @@
+I"�<p>Still in Development</p>
+
+<script src="../js/tsuku.js"></script>
+
+<!-- Fill Deck -->
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul width=50%&gt;
+
+    &lt;img src="../imgs/g0Magus.webp" width=100px onclick="addCard('Lozenge Magus', '../imgs/g0Magus.webp')"&gt;
+
+    &lt;img src="../imgs/g0Eclair.webp" width=100px onclick="addCard('Battle Sister, Eclair', '../imgs/g0Eclair.webp')"&gt;
+
+    &lt;img src="../imgs/g0Kaguya.webp" width=100px onclick="addCard('Supple Bamboo Princess, Kaguya', '../imgs/g0Kaguya.webp')"&gt;
+
+    &lt;img src="../imgs/g0Ichibyoshi.webp" width=100px onclick="addCard('Godhawk, Ichibyoshi', '../imgs/g0Ichibyoshi.webp')"&gt;
+
+    &lt;img src="../imgs/g1CoCoa.webp" width=100px onclick="addCard('Battle Sister, Cocoa', '../imgs/g1CoCoa.webp')"&gt;
+
+    &lt;img src="../imgs/g1Magus.webp" width=100px onclick="addCard('Circle Magus', '../imgs/g1Magus.webp')"&gt;
+
+    &lt;img src="../imgs/g1DarkCat.webp" width=100px onclick="addCard('Dark Cat', '../imgs/g1DarkCat.webp')"&gt;
+
+    &lt;img src="../imgs/g1LuckBird.webp" width=100px onclick="addCard('Luck Bird', '../imgs/g1LuckBird.webp')"&gt;
+
+    &lt;img src="../imgs/g1Gemini.webp" width=100px onclick="addCard('Oracle Guardian, Gemini', '../imgs/g1Gemini.webp')"&gt;
+
+    &lt;img src="../imgs/g1Maple.webp" width=100px onclick="addCard('Battle Sister, Maple', '../imgs/g1Maple.webp')"&gt;
+
+    &lt;img src="../imgs/g1Truth.webp" width=100px onclick="addCard('One Who Gazes at the Truth', '../imgs/g1Truth.webp')"&gt;
+
+    &lt;img src="../imgs/g1PetalFairy.webp" width=100px onclick="addCard('Petal Fairy', '../imgs/g1PetalFairy.webp')"&gt;
+
+    &lt;img src="../imgs/g1SwordAngel.webp" width=100px onclick="addCard('Sword Dances Angel', '../imgs/g1SwordAngel.webp')"&gt;
+
+    &lt;img src="../imgs/g1Milk.webp" width=100px onclick="addCard('Weather Girl, Milk', '../imgs/g1Milk.webp')"&gt;
+
+    &lt;img src="../imgs/g1Tsuku.webp" width=100px onclick="addCard('Goddess of the Crescent Moon, Tsukuyomi', '../imgs/g1Tsuku.webp')"&gt;
+
+    &lt;img src="../imgs/g1BlueEye.webp" width=100px onclick="addCard('Oracle Guardian, Blue Eye', '../imgs/g1BlueEye.webp')"&gt;
+
+    &lt;img src="../imgs/g1Hare.webp" width=100px onclick="addCard('White Hare pf Inaba', '../imgs/g1Hare.webp')"&gt;
+
+    &lt;img src="../imgs/g2Tsuku.webp" width=100px onclick="addCard('Goddess of the Half Moon, Tsukuyomi', '../imgs/g2Tsuku.webp')"&gt;
+
+    &lt;img src="../imgs/g3Tsuku.webp" width=100px onclick="addCard('Goddess of the Full Moon, Tsukuyomi', '../imgs/g3Tsuku.webp')"&gt;
+
+    &lt;img src="../imgs/g3Amaterasu.webp" width=100px onclick="addCard('CEO Amaterasu', '../imgs/g3Amaterasu.webp')"&gt;
+
+&lt;/ul&gt; &lt;!--
+draw starting hand
+draw
+tell what cards you've drawn
+search tsukuyomi
+draw and replace --&gt;
+</code></pre></div></div>
+<p>&lt;div class=”right-half” width=50%&gt;
+    &lt;h2&gt;Deck&lt;/h2&gt;
+    &lt;ul&gt;
+        <span id="deckPlace"></span>
+    &lt;/ul&gt;
+    <button>Start</button>
+&lt;/div&gt;</p>
+:ET
