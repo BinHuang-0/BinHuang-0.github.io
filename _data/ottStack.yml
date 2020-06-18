@@ -1,0 +1,16 @@
+- name: Critical Trigger
+  img: ../imgs/Critical_symbol.webp
+- name: Draw Trigger
+  img: ../imgs/Draw_symbol.webp
+- name: Heal Trigger
+  img: ../imgs/Heal_symbol.webp
+- name: Stand Trigger
+  img: ../imgs/Stand_symbol.webp
+- name: Sentinel
+  img: ../imgs/CFZIconSentinel.webp/
+- name: Silent Tom
+  img: ../imgs/SilentTom.jpg
+- name: Boost
+  img: ../imgs/Sk_boost.webp
+- name: Intercept
+  img: ../imgs/Sk_intercept.webp
