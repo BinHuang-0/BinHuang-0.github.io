@@ -16,8 +16,9 @@ Still in Development
 
 <h2>Add to Stack</h2>
 
-<div id="cardImages">
+<div class="cardPlace">
 {% for item in site.data.ottStack %}
+    <img src="https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/ce2ece60-9b32-11e6-95ab-00163ed833e7/1578981868/the-test-fun-for-friends-logo.png"/>
     <img src="{{item.img}}" width=75px onclick="addCard('{{item.name}}', '{{item.img}}')" />
 {% endfor%}
 </div>
@@ -32,9 +33,9 @@ Still in Development
 
 <h2>Deck</h2>
 <span id="cardCount">Deck Size: 40</span>
-<ul>
+<div class="cardPlace">
     <span id="deckPlace"></span>
-</ul>
+</div>
 
 </div>
 
