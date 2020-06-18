@@ -2,7 +2,7 @@
     float: left;
 }
 
-.post-content ul {
+.post-content #cardImages {
     clear: both;
 }
 

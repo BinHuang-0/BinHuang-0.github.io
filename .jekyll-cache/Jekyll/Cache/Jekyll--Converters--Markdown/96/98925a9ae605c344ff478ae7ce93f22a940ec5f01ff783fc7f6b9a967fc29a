@@ -1,4 +1,4 @@
-I"Ž<link rel="stylesheet" href="../css/tsuku.css" />
+I"Š<link rel="stylesheet" href="../css/tsuku.css" />
 
 <script src="../js/tsuku.js"></script>
 
@@ -9,8 +9,8 @@
 <div class="left-half">
 
 <h2>Add to Stack</h2>
+<br />
 
-<ul>
 
     <img src="../imgs/Critical_symbol.webp" width="75px" onclick="addCard('Critical Trigger', '../imgs/Critical_symbol.webp')" />
 
@@ -28,7 +28,6 @@
 
     <img src="../imgs/Sk_intercept.webp" width="75px" onclick="addCard('Intercept', '../imgs/Sk_intercept.webp')" />
 
-</ul>
 
 <button onclick="drawCard()">Draw</button>
 <button onclick="resetDeck()">Reset</button>

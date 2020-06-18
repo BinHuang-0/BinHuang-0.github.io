@@ -16,11 +16,11 @@ Still in Development
 
 <h2>Add to Stack</h2>
 
-<ul>
+<div id="cardImages">
 {% for item in site.data.ottStack %}
-    <img src="{{item.img}}" width=75px onclick="addCard('{{item.name}}', '{{item.img}}')">
+    <img src="{{item.img}}" width=75px onclick="addCard('{{item.name}}', '{{item.img}}')" />
 {% endfor%}
-</ul>
+</div>
 
 <button onclick="drawCard()">Draw</button>
 <button onclick="resetDeck()">Reset</button>
