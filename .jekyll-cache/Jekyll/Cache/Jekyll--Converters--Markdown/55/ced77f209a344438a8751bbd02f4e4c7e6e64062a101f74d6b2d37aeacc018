@@ -1,0 +1,52 @@
+I"”<link rel="stylesheet" href="../css/tsuku.css" />
+
+<script src="../js/tsuku.js"></script>
+
+<p>Still in Development</p>
+
+<!-- Fill Deck -->
+
+<div class="left-half">
+
+<h2>Add to Stack</h2>
+
+<div class="cardPlace">
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/f/f2/Critical_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044844" width="75px" height="75px" onclick="addCard('Critical Trigger', 'https://vignette.wikia.nocookie.net/cardfight/images/f/f2/Critical_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044844')" />
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/7/77/Draw_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044845" width="75px" height="75px" onclick="addCard('Draw Trigger', 'https://vignette.wikia.nocookie.net/cardfight/images/7/77/Draw_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044845')" />
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/5/5d/Heal_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044847" width="75px" height="75px" onclick="addCard('Heal Trigger', 'https://vignette.wikia.nocookie.net/cardfight/images/5/5d/Heal_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044847')" />
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/a/a9/Stand_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044848" width="75px" height="75px" onclick="addCard('Stand Trigger', 'https://vignette.wikia.nocookie.net/cardfight/images/a/a9/Stand_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044848')" />
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/7/71/CFZIconSentinel.png/revision/latest/scale-to-width-down/20?cb=20200521064725" width="75px" height="75px" onclick="addCard('Sentinel', 'https://vignette.wikia.nocookie.net/cardfight/images/7/71/CFZIconSentinel.png/revision/latest/scale-to-width-down/20?cb=20200521064725')" />
+
+    <img src="../imgs/SilentTom.jpg" width="75px" height="75px" onclick="addCard('Silent Tom', '../imgs/SilentTom.jpg')" />
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/d/dc/Sk_boost.gif/revision/latest?cb=20120103152733" width="75px" height="75px" onclick="addCard('Boost', 'https://vignette.wikia.nocookie.net/cardfight/images/d/dc/Sk_boost.gif/revision/latest?cb=20120103152733')" />
+
+    <img src="https://vignette.wikia.nocookie.net/cardfight/images/f/fa/Sk_intercept.gif/revision/latest?cb=20120103152800" width="75px" height="75px" onclick="addCard('Intercept', 'https://vignette.wikia.nocookie.net/cardfight/images/f/fa/Sk_intercept.gif/revision/latest?cb=20120103152800')" />
+
+</div>
+
+<button onclick="drawCard()">Draw</button>
+<button onclick="resetDeck()">Reset</button>
+
+</div>
+
+<div class="right-half">
+
+<h2>Deck</h2>
+<span id="cardCount">Deck Size: 40</span>
+<div class="cardPlace">
+    <span id="deckPlace"></span>
+</div>
+
+</div>
+
+<script> 
+    resetDeck();
+</script>
+
+:ET

@@ -18,8 +18,7 @@ Still in Development
 
 <div class="cardPlace">
 {% for item in site.data.ottStack %}
-    <img src="https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/ce2ece60-9b32-11e6-95ab-00163ed833e7/1578981868/the-test-fun-for-friends-logo.png"/>
-    <img src="{{item.img}}" width=75px onclick="addCard('{{item.name}}', '{{item.img}}')" />
+    <img src="{{item.img}}" width=75px height=75px onclick="addCard('{{item.name}}', '{{item.img}}')" />
 {% endfor%}
 </div>
 

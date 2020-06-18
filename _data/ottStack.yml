@@ -1,16 +1,16 @@
 - name: Critical Trigger
-  img: ../imgs/Critical_symbol.webp
+  img: https://vignette.wikia.nocookie.net/cardfight/images/f/f2/Critical_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044844
 - name: Draw Trigger
-  img: ../imgs/Draw_symbol.webp
+  img: https://vignette.wikia.nocookie.net/cardfight/images/7/77/Draw_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044845
 - name: Heal Trigger
-  img: ../imgs/Heal_symbol.webp
+  img: https://vignette.wikia.nocookie.net/cardfight/images/5/5d/Heal_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044847
 - name: Stand Trigger
-  img: ../imgs/Stand_symbol.webp
+  img: https://vignette.wikia.nocookie.net/cardfight/images/a/a9/Stand_symbol.png/revision/latest/scale-to-width-down/20?cb=20180509044848
 - name: Sentinel
-  img: ../imgs/CFZIconSentinel.webp/
+  img: https://vignette.wikia.nocookie.net/cardfight/images/7/71/CFZIconSentinel.png/revision/latest/scale-to-width-down/20?cb=20200521064725
 - name: Silent Tom
-  img: ../imgs/SilentTom.jpg
+  img: https://vignette.wikia.nocookie.net/cardfight/images/6/66/BT02-017_RR.jpg/revision/latest/scale-to-width-down/340?cb=20111202054144
 - name: Boost
-  img: ../imgs/Sk_boost.webp
+  img: https://vignette.wikia.nocookie.net/cardfight/images/d/dc/Sk_boost.gif/revision/latest?cb=20120103152733
 - name: Intercept
-  img: ../imgs/Sk_intercept.webp
+  img: https://vignette.wikia.nocookie.net/cardfight/images/f/fa/Sk_intercept.gif/revision/latest?cb=20120103152800
