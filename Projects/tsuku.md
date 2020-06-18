@@ -17,13 +17,9 @@ Still in Development
 <h2>Add to Stack</h2>
 
 <ul>
-
 {% for item in site.data.ottStack %}
-    <img src="{{item.img}}" width=75px onclick=
-    "addCard('{{item.name}}', '{{item.img}}')"/>
-
+    <img src="{{item.img}}" width=75px onclick="addCard('{{item.name}}', '{{item.img}}')">
 {% endfor%}
-
 </ul>
 
 <button onclick="drawCard()">Draw</button>
