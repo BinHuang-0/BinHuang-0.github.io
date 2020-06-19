@@ -19,3 +19,13 @@
 #cardCount {
     float: right;
 }
+
+.cardPlace img {
+    width: 75px;
+    height: 75px;
+}
+
+#deckPlace img{
+    width: 20px;
+    height: 20px;
+}

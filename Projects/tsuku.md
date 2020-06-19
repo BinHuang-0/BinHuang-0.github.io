@@ -18,7 +18,7 @@ Still in Development
 
 <div class="cardPlace">
 {% for item in site.data.ottStack %}
-    <img src="{{item.img}}" width=75px height=75px onclick="addCard('{{item.name}}', '{{item.img}}')" />
+    <img src="{{item.img}}" onclick="addCard('{{item.name}}', '{{item.img}}')" />
 {% endfor%}
 </div>
 
