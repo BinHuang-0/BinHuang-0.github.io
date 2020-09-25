@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tsukuyomi Deck Tracker</title>
+  <title>Korean Numbers Practice</title>
   <meta name="description" content="Personal website of Bin Huang to mess around with and experiment. Also personal blog consisting of mostly app development.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/Projects/tsuku.html">
+  <link rel="canonical" href="http://localhost:4000/Projects/koreanNumbersPractice.html">
   <link rel="alternate" type="application/rss+xml" title="Bin Huang" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -49,56 +49,17 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Tsukuyomi Deck Tracker</h1>
+    <h1 class="post-title">Korean Numbers Practice</h1>
   </header>
 
   <div class="post-content">
-    <link rel="stylesheet" href="../css/tsuku.css" />
+    <h3>Sino-Korean Numbers</h3>
+<p><input type="text" id="numberToKorean" class="question" readonly="" /> <br />
+<input type="text" id="koreanAnswer" class="answer" /><span id="koreanCorrect"></span><br />
+<button onclick="generateNumber()">New Number</button>
+<button onclick="checkSino()">Check Answer</button></p>
 
-<script src="../js/tsuku.js"></script>
-
-<div class="left-half">
-
-<h2>Add to Stack</h2>
-
-<div class="cardPlace">
-
-    <img src="../imgs/Critical_symbol.webp" onclick="addCard('Critical Trigger', '../imgs/Critical_symbol.webp')" />
-
-    <img src="../imgs/Draw_symbol.webp" onclick="addCard('Draw Trigger', '../imgs/Draw_symbol.webp')" />
-
-    <img src="../imgs/Heal_symbol.webp" onclick="addCard('Heal Trigger', '../imgs/Heal_symbol.webp')" />
-
-    <img src="../imgs/Stand_symbol.webp" onclick="addCard('Stand Trigger', '../imgs/Stand_symbol.webp')" />
-
-    <img src="../imgs/CFZIconSentinel.webp" onclick="addCard('Sentinel', '../imgs/CFZIconSentinel.webp')" />
-
-    <img src="../imgs/SilentTom.jpg" onclick="addCard('Silent Tom', '../imgs/SilentTom.jpg')" />
-
-    <img src="../imgs/Sk_boost.webp" onclick="addCard('Boost', '../imgs/Sk_boost.webp')" />
-
-    <img src="../imgs/Sk_intercept.webp" onclick="addCard('Intercept', '../imgs/Sk_intercept.webp')" />
-
-</div>
-
-<button onclick="drawCard()">Draw</button>
-<button onclick="resetDeck()">Reset</button>
-
-</div>
-
-<div class="right-half">
-
-<h2>Deck</h2>
-<span id="cardCount">Deck Size: 40</span>
-<div class="cardPlace">
-    <span id="deckPlace"></span>
-</div>
-
-</div>
-
-<script> 
-    resetDeck();
-</script>
+<script src="../js/koreanNumbersPractice.js"></script>
 
 
   </div>

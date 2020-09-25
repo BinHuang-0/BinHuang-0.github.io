@@ -1,0 +1,10 @@
+I"X<h1>Korean Numbers Practice</h1>
+
+<p><input type="text" id="numberToKorean" class="question" readonly="" /> <br />
+<input type="text" id="koreanAnswer" class="answer" /><br />
+<button onclick="generateNumber()">New Number</button>
+<button onclick="checkSino()">Check Answer</button></p>
+
+<script src="../js/koreanNumbersPractice.js"></script>
+
+:ET
