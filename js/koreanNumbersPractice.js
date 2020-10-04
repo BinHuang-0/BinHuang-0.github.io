@@ -1,17 +1,18 @@
 let gNumber = 0;
+let ktnSinoNumber = 0;
 
 function generateNumber() {
-    gNumber = Math.floor(Math.random() * 100);
+    gNumber = Math.floor(Math.random() * 99 + 1);
     document.getElementById("koreanCorrect").innerHTML = "";
+    document.getElementById("koreanAnswer").value = "";
     showNumber();
 }
 
 function showNumber() {
-    document.getElementById("numberToKorean").value = gNumber;
+    document.getElementById("numberToKorean").innerHTML = gNumber;
 }
 
-function getSino() {
-    let num = gNumber;
+function getSino(num) {
     let retStr = "";
     switch(num%10) {
         case 1:
@@ -75,12 +76,33 @@ function getSino() {
 }
 
 function checkSino() {
-    if(document.getElementById("koreanAnswer").value === getSino()) {
+    if(document.getElementById("koreanAnswer").value === getSino(gNumber)) {
         document.getElementById("koreanCorrect").innerHTML = "Correct!";
     }
     else {
-        document.getElementById("koreanCorrect").innerHTML = "Wrong. It's " + getSino();
+        document.getElementById("koreanCorrect").innerHTML = "Wrong. It's " + getSino(gNumber);
     }
 }
 
+function generatektnSinoNumber() {
+	ktnSinoNumber = Math.floor(Math.random() * 99 + 1);
+	document.getElementById("ktnSinoCorrect").innerHTML = "";
+	document.getElementById("ktnSinoAnswer").value = "";
+	showktnNumber();
+}
+
+function showktnNumber() {
+	document.getElementById("ktnSinoShow").innerHTML = getSino(ktnSinoNumber);
+}
+
+function checkktnSinoNumber() {
+	if(document.getElementById("ktnSinoAnswer").value == ktnSinoNumber) {
+		document.getElementById("ktnSinoCorrect").innerHTML = "Correct!";
+	}
+	else {
+        document.getElementById("ktnSinoCorrect").innerHTML = "Wrong. It's " + ktnSinoNumber;
+	}
+}
+
 generateNumber();
+generatektnSinoNumber();

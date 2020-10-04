@@ -53,11 +53,24 @@
   </header>
 
   <div class="post-content">
-    <h3>Sino-Korean Numbers</h3>
-<p><input type="text" id="numberToKorean" class="question" readonly="" /> <br />
-<input type="text" id="koreanAnswer" class="answer" /><span id="koreanCorrect"></span><br />
-<button onclick="generateNumber()">New Number</button>
+    <link rel="stylesheet" href="../css/koreanNumbersPractice.css" />
+
+<h3>Sino-Korean Numbers</h3>
+<h4>Numbers to Words</h4>
+<p id="numberToKorean" class="question"></p>
+<p><input type="text" id="koreanAnswer" class="answer" /></p>
+<p class="correct" id="koreanCorrect"></p>
+<p><br />
+<button class="first-button" onclick="generateNumber()">New Number</button>
 <button onclick="checkSino()">Check Answer</button></p>
+
+<h4>Words to Numbers</h4>
+<p id="ktnSinoShow" class="question"></p>
+<p><input type="text" id="ktnSinoAnswer" class="answer" /></p>
+<p class="correct" id="ktnSinoCorrect"></p>
+<p><br />
+<button class="first-button" onclick="generatektnSinoNumber()">New Number</button>
+<button onclick="checkktnSinoNumber()">Check Answer</button></p>
 
 <script src="../js/koreanNumbersPractice.js"></script>
 
