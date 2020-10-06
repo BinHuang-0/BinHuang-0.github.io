@@ -13,7 +13,9 @@ function showNumber() {
 }
 
 function getSino(num) {
-    let retStr = "";
+	let retStr = "";
+	if(num == 0)
+		return "공";
     switch(num%10) {
         case 1:
             retStr = "일";
@@ -43,7 +45,7 @@ function getSino(num) {
 			retStr = "구";
 			break;
     }
-	if(num/10 != 0) {
+	if(Math.floor(num/10) != 0) {
 			retStr = "십" + retStr;
 			switch(Math.floor(num/10)) {
 				case 2:
