@@ -1,5 +1,7 @@
 let gNumber = 0;
 let ktnSinoNumber = 0;
+let ntkNativeNumber = 0;
+let ktnNativeNumber = 0;
 
 function generateNumber() {
     gNumber = Math.floor(Math.random() * 99 + 1);
@@ -8,8 +10,41 @@ function generateNumber() {
     showNumber();
 }
 
+function generatektnSinoNumber() {
+	ktnSinoNumber = Math.floor(Math.random() * 99 + 1);
+	document.getElementById("ktnSinoCorrect").innerHTML = "";
+	document.getElementById("ktnSinoAnswer").value = "";
+	showktnNumber();
+}
+
+function generatentkNativeNumber() {
+	ntkNativeNumber = Math.floor(Math.random() * 99 + 1);
+	document.getElementById("ntkNativeCorrect").innerHTML = "";
+	document.getElementById("ntkNativeAnswer").value = "";
+	showntkNativeNumber();
+}
+
+function generatektnNativeNumber() {
+	ktnNativeNumber = Math.floor(Math.random() * 99 + 1);
+	document.getElementById("ktnNativeCorrect").innerHTML = "";
+	document.getElementById("ktnNativeAnswer").value = "";
+	showktnNativeNumber();
+}
+
 function showNumber() {
     document.getElementById("numberToKorean").innerHTML = gNumber;
+}
+
+function showktnNumber() {
+	document.getElementById("ktnSinoShow").innerHTML = getSino(ktnSinoNumber);
+}
+
+function showntkNativeNumber() {
+    document.getElementById("ntkNativeShow").innerHTML = ntkNativeNumber;
+}
+
+function showktnNativeNumber() {
+    document.getElementById("ktnNativeShow").innerHTML = getNative(ktnNativeNumber);
 }
 
 function getSino(num) {
@@ -47,7 +82,7 @@ function getSino(num) {
     }
 	if(Math.floor(num/10) != 0) {
 			retStr = "십" + retStr;
-			switch(Math.floor(num/10)) {
+			switch(Math.floor(num/10)%10) {
 				case 2:
 					retStr = "이" + retStr;
 					break;
@@ -77,6 +112,78 @@ function getSino(num) {
     return retStr;
 }
 
+function getNative(num) {
+	let retstr = "";
+	if(num == 0) {
+		return "공";
+	}
+	switch(num%10) {
+		case 1:
+			retstr = "한나" + retstr;
+			break;
+		case 2:
+			retstr = "둘" + retstr;
+			break;
+		case 3:
+			retstr = "셋" + retstr;
+			break;
+		case 4:
+			retstr = "넷" + retstr;
+			break;
+		case 5:
+			retstr = "다섯" + retstr;
+			break;
+		case 6:
+			retstr = "여섯" + retstr;
+			break;
+		case 7:
+			retstr = "일곱" + retstr;
+			break;
+		case 8:
+			retstr = "여덟" + retstr;
+			break;
+		case 9:
+			retstr = "아홉" + retstr;
+			break;
+		default:
+			retstr = "";
+			break;
+	}
+	switch(Math.floor(num/10)%10) {
+		case 1:
+			retstr = "열" + retstr;
+			break;
+		case 2:
+			retstr = "스물" + retstr;
+			break;
+		case 3:
+			retstr = "서른" + retstr;
+			break;
+		case 4:
+			retstr = "마흔" + retstr;
+			break;
+		case 5:
+			retstr = "쉰" + retstr;
+			break;
+		case 6:
+			retstr = "예순" + retstr;
+			break;
+		case 7:
+			retstr = "일흔" + retstr;
+			break;
+		case 8:
+			retstr = "여든" + retstr;
+			break;
+		case 9:
+			retstr = "아흔" + retstr;
+			break;
+		default:
+			retstr = "";
+			break;
+	}
+	return retstr;
+}
+
 function checkSino() {
     if(document.getElementById("koreanAnswer").value === getSino(gNumber)) {
         document.getElementById("koreanCorrect").innerHTML = "Correct!";
@@ -84,17 +191,6 @@ function checkSino() {
     else {
         document.getElementById("koreanCorrect").innerHTML = "Wrong. It's " + getSino(gNumber);
     }
-}
-
-function generatektnSinoNumber() {
-	ktnSinoNumber = Math.floor(Math.random() * 99 + 1);
-	document.getElementById("ktnSinoCorrect").innerHTML = "";
-	document.getElementById("ktnSinoAnswer").value = "";
-	showktnNumber();
-}
-
-function showktnNumber() {
-	document.getElementById("ktnSinoShow").innerHTML = getSino(ktnSinoNumber);
 }
 
 function checkktnSinoNumber() {
@@ -106,5 +202,25 @@ function checkktnSinoNumber() {
 	}
 }
 
+function checkntkNativeNumber() {
+	if(document.getElementById("ntkNativeAnswer").value == getNative(ntkNativeNumber)) {
+		document.getElementById("ntkNativeCorrect").innerHTML = "Correct!";
+	}
+	else {
+        document.getElementById("ntkNativeCorrect").innerHTML = "Wrong. It's " + getNative(ntkNativeNumber);
+	}
+}
+
+function checkktnNativeNumber() {
+	if(document.getElementById("ktnNativeAnswer").value == ktnNativeNumber) {
+		document.getElementById("ktnNativeCorrect").innerHTML = "Correct!";
+	}
+	else {
+        document.getElementById("ktnNativeCorrect").innerHTML = "Wrong. It's " + ktnNativeNumber;
+	}
+}
+
 generateNumber();
 generatektnSinoNumber();
+generatentkNativeNumber();
+generatektnNativeNumber();
